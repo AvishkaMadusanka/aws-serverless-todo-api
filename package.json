@@ -1,0 +1,17 @@
+{
+  "name": "aws-serverless-todo-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AWS SAM To-Do CRUD API using Lambda, API Gateway, and DynamoDB",
+  "files": [
+    "src/handlers/**/*.mjs"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.398.0",
+    "@aws-sdk/lib-dynamodb": "^3.398.0"
+  }
+}
