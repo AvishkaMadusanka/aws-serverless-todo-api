@@ -28,6 +28,7 @@ Resources:
       Environment:
         Variables:
           TASKS_TABLE: !Ref TasksTable
+          DYNAMODB_ENDPOINT: ""
       Events:
         TasksCollection:
           Type: Api
